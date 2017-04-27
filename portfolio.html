@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<title>Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Regine Blanco</title>
+
+	<!-- FONT AWESOME AND GOOGLE FONTS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Ubuntu" rel="stylesheet">
+	
+	<!-- BOOTSTRAP -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  	<!-- PERSONAL STYLE -->
+	<link rel="stylesheet" type="text/css" href="portfolio-style.css">
+</head>
+<body>
+
+<div class="container-fluid">
+	<header id="header">
+		<nav class="navbar navbar-fixed-top">
+	  		<div class="container-fluid">
+			    <ul class="nav navbar-nav">
+					<li class="active"><a href="#header">About</a></li>
+					<li><a href="#work">Work</a></li>
+					<li><a href="#contact">Contact</a></li>
+			    </ul>
+			</div>
+		</nav>
+	</header>
+
+	<div id="about">
+		<div id="intro">
+			<h3>Hi, I am Regine Blanco</h3>
+			<p>I am a web developer from Manila, Philippines.</p>
+		</div><br>
+		<div id="skills">
+			<h4>Skills</h4>
+			<p>HTML5, CSS3, Bootstrap</p>
+			<p>Javascript, jQuery</p>
+			<p>PHP, MySQL, Laravel</p>
+		</div>
+	</div>
+
+	<div class="images-container" id="work">
+		<div class="row">
+			<div class="col-xs-6 col-lg-4">
+				<a href="#">
+					<div class="projects" id="write" data-toggle='modal' data-target='#view-arti'>
+						<p class="describe" id="p-write"><span class="title">arti</span><br><span class="yup">Laravel</span></p>
+					</div>
+				</a>
+			</div>
+			<div class="col-xs-6 col-lg-4">
+				<a href="#">
+					<div class="projects" id="surf" data-toggle='modal' data-target='#view-surph'>
+						<p class="describe" id="p-surf"><span class="title">SurPH's Up</span><br><span class="yup">PHP, SQL</span></p>
+					</div>
+				</a>
+			</div>
+			<div class="col-xs-6 col-lg-4">
+				<a href="#">
+					<div class="projects" id="explore" data-toggle='modal' data-target='#view-sdl'>
+						<p class="describe" id="p-explore"><span class="title">Stuff Dogs Like</span><br><span class="yup">PHP</span></p>
+					</div>
+				</a>
+			</div>
+			<div class="col-xs-6 col-lg-4">
+				<a href="#">
+					<div class="projects" id="watch" data-toggle='modal' data-target='#view-todo'>
+						<p class="describe" id="p-watch"><span class="title">To-Do list</span><br><span class="yup">Javascript, jQuery</span></p>
+					</div>
+				</a>
+			</div>
+			<div class="col-xs-6 col-lg-4">
+				<a href="#">
+					<div class="projects" id="code" data-toggle='modal' data-target='#view-finalblog'>
+						<p class="describe" id="p-code" style="color: #000"><span class="title">surf, write, code</span><br><span class="yup">Front-end web design</span></p>
+					</div>
+				</a>
+			</div>
+			<div class="col-xs-6 col-lg-4">
+				<a href="#">
+					<div class="projects" id="misc" data-toggle='modal' data-target='#view-blog'>
+						<p class="describe" id="p-misc"><span class="title">Regine's Blog</span><br><span class="yup">Basic HTML, CSS</span></p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- MODAL -->
+	<div id='view-arti' class='modal fade' role='dialog'>
+		<div class='modal-dialog'>
+			<div class='modal-content'>
+				<div class='modal-header'>
+					<button type='button' class='close' data-dismiss='modal'>&times;</button>
+					<h4 class='modal-title'>arti</h4>
+				</div>
+				<div class='modal-body'>	
+					<!-- <div class='row'> -->
+						<div>
+							<p>arti is a social media website inspired by both Instagram and Tumblr.</p>
+							<h5>Features</h5>
+							<ul>
+								<li>Laravel framework</li>
+								<li>PHP</li>
+								<li>Salvattore.js framework for the grid in profiles</li>
+							</ul>
+						</div>
+						<!-- <div class="col-xs-5 m-photo">
+							<img src="code2.jpg">
+						</div>
+					</div> -->
+				</div>
+				<div class='modal-footer'>
+	  				<button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id='view-arti' class='modal fade' role='dialog'>
+		<div class='modal-dialog'>
+			<div class='modal-content'>
+				<div class='modal-header'>
+					<button type='button' class='close' data-dismiss='modal'>&times;</button>
+					<h4 class='modal-title'>arti</h4>
+				</div>
+				<div class='modal-body'>	
+					<!-- <div class='row'> -->
+						<div>
+							<p>arti is a social media website inspired by both Instagram and Tumblr.</p>
+							<p>(<a href="https://github.com/regineblanco/arti" target="_blank">Live</a>/<a href="http://regineblanco.esy.es/surphs-up/" target="_blank"></a>Repo)</p>
+							<h5>Features</h5>
+							<ul>
+								<li>Laravel framework</li>
+								<li>PHP</li>
+								<li>Salvattore.js framework for the grid in profiles</li>
+							</ul>
+						</div>
+						<!-- <div class="col-xs-5 m-photo">
+							<img src="code2.jpg">
+						</div>
+					</div> -->
+				</div>
+				<div class='modal-footer'>
+	  				<button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- MODALS -->
+
+	<!-- arti -->
+	<div id='view-arti' class='modal fade' role='dialog'>
+		<div class='modal-dialog'>
+			<div class='modal-content'>
+				<div class='modal-header'>
+					<button type='button' class='close' data-dismiss='modal'>&times;</button>
+					<h4 class='modal-title'>arti</h4>
+				</div>
+				<div class='modal-body'>	
+					<!-- <div class='row'> -->
+						<div>
+							<p>arti is a social media website inspired by both Instagram and Tumblr.</p>
+							<p>(<a href="https://github.com/regineblanco/arti" target="_blank">Repo</a>)</p>
+							<h5>Features</h5>
+							<ul>
+								<li>Laravel framework</li>
+								<li>PHP</li>
+								<li>Salvattore.js framework for the grid in profiles</li>
+							</ul>
+						</div>
+						<!-- <div class="col-xs-5 m-photo">
+							<img src="code2.jpg">
+						</div>
+					</div> -->
+				</div>
+				<div class='modal-footer'>
+	  				<button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- surph's up -->
+	<div id='view-surph' class='modal fade' role='dialog'>
+		<div class='modal-dialog'>
+			<div class='modal-content'>
+				<div class='modal-header'>
+					<button type='button' class='close' data-dismiss='modal'>&times;</button>
+					<h4 class='modal-title'>SurPH's Up!</h4>
+				</div>
+				<div class='modal-body'>	
+					<!-- <div class='row'> -->
+						<div>
+							<p>SurPH's Up! is a single page web directory of the places to surf, stay, and eat in famous surf spots around the Philippines.</p>
+							<span>(<a href="http://regineblanco.esy.es/surphs-up/" target="_blank">Live</a>/<a href="https://github.com/regineblanco/surphs-up" target="_blank">Repo</a>)</span><br>
+							<h5>Features</h5>
+							<ul>
+								<li>PHP</li>
+								<li>MySQL</li>
+								<li>Ajax</li>
+								<li>Google Maps API</li>
+							</ul>
+						</div>
+						<!-- <div class="col-xs-5 m-photo">
+							<img src="code2.jpg">
+						</div>
+					</div> -->
+				</div>
+				<div class='modal-footer'>
+	  				<button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- stuff dogs like -->
+	<div id='view-sdl' class='modal fade' role='dialog'>
+		<div class='modal-dialog'>
+			<div class='modal-content'>
+				<div class='modal-header'>
+					<button type='button' class='close' data-dismiss='modal'>&times;</button>
+					<h4 class='modal-title'>Stuff Dogs Like</h4>
+				</div>
+				<div class='modal-body'>	
+					<!-- <div class='row'> -->
+						<div>
+							<p>Stuff Dogs Like is an e-commerce website that sells items and offers services for your pet dogs.</p>
+							<p>(<a href="http://regineblanco.esy.es/stuff-dogs-like/" target="_blank">Live</a>/<a href="https://github.com/regineblanco/stuff-dogs-like" target="_blank">Repo</a>)</p>
+							<h5>Features</h5>
+							<ul>
+								<li>Basic PHP</li>
+								<li>Javascript</li>
+							</ul>
+						</div>
+						<!-- <div class="col-xs-5 m-photo">
+							<img src="code2.jpg">
+						</div>
+					</div> -->
+				</div>
+				<div class='modal-footer'>
+	  				<button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- to-do -->
+		<div id='view-todo' class='modal fade' role='dialog'>
+		<div class='modal-dialog'>
+			<div class='modal-content'>
+				<div class='modal-header'>
+					<button type='button' class='close' data-dismiss='modal'>&times;</button>
+					<h4 class='modal-title'>To-Do List</h4>
+				</div>
+				<div class='modal-body'>	
+					<!-- <div class='row'> -->
+						<div>
+							<p>A single page to-do list to practice Javascript.</p>
+							<h5>Features</h5>
+							<ul>
+								<li>Javascript</li>
+							</ul>
+						</div>
+						<!-- <div class="col-xs-5 m-photo">
+							<img src="code2.jpg">
+						</div>
+					</div> -->
+				</div>
+				<div class='modal-footer'>
+	  				<button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- surf, write, code -->
+	<div id='view-finalblog' class='modal fade' role='dialog'>
+		<div class='modal-dialog'>
+			<div class='modal-content'>
+				<div class='modal-header'>
+					<button type='button' class='close' data-dismiss='modal'>&times;</button>
+					<h4 class='modal-title'>surf, write, code</h4>
+				</div>
+				<div class='modal-body'>	
+						<div>
+							<p>A personal blog created as a final capstone project for the front-end.</p>
+							<span>(<a href="https://regineblanco.github.io/final-blog/" target="_blank">Live</a>/<a href="https://github.com/regineblanco/final-blog" target="_blank">Repo</a>)</span><br>
+							<h5>Features</h5>
+							<ul>
+								<li>HTML, CSS</li>
+								<li>Bootstrap framework</li>
+							</ul>
+						</div>
+				</div>
+				<div class='modal-footer'>
+	  				<button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- beginner blog -->
+	<div id='view-blog' class='modal fade' role='dialog'>
+		<div class='modal-dialog'>
+			<div class='modal-content'>
+				<div class='modal-header'>
+					<button type='button' class='close' data-dismiss='modal'>&times;</button>
+					<h4 class='modal-title'>Regine's Blog</h4>
+				</div>
+				<div class='modal-body'>	
+						<div>
+							<p>First-ever project in Tuitt Coding Bootcamp, using basic front-end tools.</p>
+							<p>(<a href="https://regineblanco.github.io/beginner-blog/#" target="_blank">Live</a>/<a href="https://github.com/regineblanco/beginner-blog" target="_blank">Repo</a>)</p>
+							<h5>Features</h5>
+							<ul>
+								<li>HTML, CSS</li>
+							</ul>
+						</div>
+				</div>
+				<div class='modal-footer'>
+	  				<button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" id="contact">
+		<div class="row">
+			<div class="col-xs-6 contact-details">
+				<h4>Contact</h4>
+				<p>0926 630 5900</p>
+				<p>regineannblanco@yahoo.com</p>
+			</div>
+			<div class="col-xs-6 links">
+				<h4>Let's Link</h4>
+				<a href="https://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button" target="_blank">
+					<i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+				</a>
+				<a href="https://github.com/regineblanco" target="_blank">
+					<i class="fa fa-github fa-lg" aria-hidden="true"></i>
+				</a>
+				<a href="https://www.freecodecamp.com/">
+					<i class="fa fa-free-code-camp fa-lg" aria-hidden="true"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<footer class="text-center">
+		<div class="footer-text">
+			Regine Blanco
+		</div>
+	</footer>
+
+</div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script>
+
+// WRITE
+	$('#write').mouseover(function() {
+		$('#p-write').css("visibility","visible");
+	});
+
+	$('#write').mouseout(function() {
+		$('#p-write').css("visibility","hidden");
+	});
+
+// SURF
+	$('#surf').mouseover(function() {
+		$('#p-surf').css("visibility","visible");
+	});
+
+	$('#surf').mouseout(function() {
+		$('#p-surf').css("visibility","hidden");
+	});
+
+// EXPLORE
+	$('#explore').mouseover(function() {
+		$('#p-explore').css("visibility","visible");
+	});
+
+	$('#explore').mouseout(function() {
+		$('#p-explore').css("visibility","hidden");
+	});
+
+// WATCH
+	$('#watch').mouseover(function() {
+		$('#p-watch').css("visibility","visible");
+	});
+
+	$('#watch').mouseout(function() {
+		$('#p-watch').css("visibility","hidden");
+	});
+
+// CODE
+	$('#code').mouseover(function() {
+		$('#p-code').css("visibility","visible");
+	});
+
+	$('#code').mouseout(function() {
+		$('#p-code').css("visibility","hidden");
+	});
+
+// MISC
+	$('#misc').mouseover(function() {
+		$('#p-misc').css("visibility","visible");
+	});
+
+	$('#misc').mouseout(function() {
+		$('#p-misc').css("visibility","hidden");
+	});
+
+</script>
+</body>
+</html>

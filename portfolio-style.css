@@ -1,0 +1,149 @@
+.container-fluid {
+	padding: 0;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+	margin-bottom: 100px;
+	background: url("projects/code.jpg") center/cover no-repeat;
+	height: 500px;
+	position: relative;
+}
+
+/*NAVIGATION*/
+nav {
+	text-align: center;
+	/*z-index: 1;*/
+	background: white;
+}
+
+.navbar ul {
+    position: absolute;
+    right: 43%;
+}
+
+.navbar a:hover {
+	background: black;
+	color: white;
+}
+
+.container {
+	width: 70%;
+	margin: 50px auto;
+	padding: 50px 0;
+}
+
+#about {
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+}
+
+/*PROJECTS*/
+
+.topic {
+	margin: 10 0px;
+}
+
+.images-container {
+	width: 90%;
+	/*margin: 50px auto;*/
+	margin: 10px auto;
+}
+
+.images-container > .row > div {
+	padding: 3px;
+	/*margin: 10px;*/
+}
+
+.projects {
+	height: 260px;
+	width: 100%;
+}
+
+.describe { /*jQuery function*/
+	visibility: hidden;
+	color: white;
+	padding: 15px;
+	padding-top: 20%;
+} 
+
+.describe .title {
+	font-size: 30px;
+	font-family: 'Karla', sans-serif;
+	text-transform: capitalize;
+}
+
+.describe .yup {
+	font-size: 20px;
+}
+
+a:hover {
+	text-decoration: none;
+	text-align: center;
+}
+
+#write {
+	background: url("typewriter.jpg") center/cover no-repeat;
+}
+
+#write:hover {
+	background: #4d1a00;
+}
+
+#surf {
+	background: url("projects/surph-index.png") center/cover no-repeat;
+}
+
+#surf:hover {
+	background: #3333ff;
+}
+
+#explore {
+	background: url("projects/sdl-index.png") center/cover no-repeat;
+}
+
+#explore:hover {
+	background: #333300;
+}
+
+#watch {
+	background: url("projects/to-do.png") center/cover no-repeat;
+}
+
+#watch:hover {
+	background: #1a1a1a;
+}
+
+#code {
+	background: url("projects/final-blog.png") center/cover no-repeat;
+}
+
+#code:hover {
+	background: #e6e6e6;
+}
+
+#misc {
+	background: url("notmybaby.jpg") center/cover no-repeat;
+}
+
+#misc:hover {
+	background: #1aa3ff;
+}
+
+#contact {
+	height: 400px;
+}
+
+footer {
+	background: url("code.jpg") left/cover no-repeat;
+	height: 100px;
+}
+
+.footer-text {
+	padding: 40px;
+}
