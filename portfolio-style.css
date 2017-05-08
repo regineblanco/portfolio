@@ -1,12 +1,13 @@
-.container-fluid {
-	padding: 0;
-}
-
 body {
-	/*font-family: 'Source Sans Pro', sans-serif;*/
 	font-family: 'Catamaran', sans-serif;
 	font-size: 16px; 
+	color: #2A3D45;
+	background: #FCF7F8;
 }
+
+/*h1, #skills h3, #background h4 {
+	color: #7A6C5D;
+}*/
 
 header {
 	margin-bottom: 100px;
@@ -18,7 +19,7 @@ header {
 /*NAVIGATION*/
 nav {
 	text-align: center;
-	background: white;
+	background: #C17C74;
 	text-transform: uppercase;
 	font-family: 'Advent Pro', sans-serif;
 }
@@ -230,6 +231,7 @@ a .logo-tuitt:hover, a .logo-anc:hover, a .logo-fcc:hover, a .logo-ust:hover {
 
 #contact h1 {
 	font-family: 'Advent Pro', sans-serif;
+	margin-bottom: 20px;
 }
 
 #contact .row {
@@ -254,12 +256,129 @@ a .logo-tuitt:hover, a .logo-anc:hover, a .logo-fcc:hover, a .logo-ust:hover {
 	color: grey;
 }
 
+.container-fluid {
+	padding: 0;
+	margin: 0;
+}
+
 footer {
 	height: 100px;
+	background: #C17C74;
 }
 
 .footer-text {
 	padding: 40px;
 	font-size: 24px;
 	font-family: 'Cookie', cursive;
+}
+
+/*RESPONSIVENESS*/
+
+@media screen and (max-width: 768px) {
+
+	h1 {
+		text-align: center;
+	}
+
+	header {
+		margin-bottom: 20px;
+
+	}
+
+	#about {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		padding: 100px 0 20px;
+		width: 100%;
+		text-align: center;
+	}
+
+	.images-container {	
+		width: 100%;
+	}
+
+	#background {
+		margin-top: 0;
+	}
+
+	#background h1 {
+		margin: 30px;
+	}
+
+	.bg p {
+		padding: 0;
+	}
+
+	#contact {
+		height: 300px;
+		margin: 10px 0;
+		text-align: center;
+	}
+
+	#contact .row {
+		margin: 0;
+	}
+
+	.links {
+		padding: 10px 0;
+		text-align: center;
+	}
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+
+	#about {
+		padding-left: 75px;
+	}
+
+	#background h1 {
+		margin: 0 30px 30px;
+	}
+
+	.bg p {
+		padding: 0 10px;
+	}
+
+	#contact {
+		height: 300px;
+		margin: 10px 0;
+		padding-left: 75px;
+	}
+
+	#contact .row {
+		margin: 0;
+	}
+
+	.links {
+		padding: 10px 0;
+	}
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1199px) {
+
+	#background h1 {
+		margin: 0 0 30px 30px;
+	}
+
+	.bg p {
+		padding: 0 20px;
+	}
+
+	#contact {
+		height: 300px;
+	}
+
+	#contact .row {
+		margin: 0 50px;
+	}
+
+	.links {
+		padding: 10px 10%;
+	}
+
 }
