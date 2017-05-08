@@ -3,12 +3,14 @@
 }
 
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	/*font-family: 'Source Sans Pro', sans-serif;*/
+	font-family: 'Catamaran', sans-serif;
+	font-size: 16px; 
 }
 
 header {
 	margin-bottom: 100px;
-	background: url("projects/code.jpg") center/cover no-repeat;
+	/*background: url("projects/coffeecode.jpg") center/cover no-repeat;*/
 	height: 500px;
 	position: relative;
 }
@@ -16,47 +18,53 @@ header {
 /*NAVIGATION*/
 nav {
 	text-align: center;
-	/*z-index: 1;*/
 	background: white;
+	text-transform: uppercase;
+	font-family: 'Advent Pro', sans-serif;
 }
 
 .navbar ul {
     position: absolute;
-    right: 43%;
+    right: 38%;
+}
+
+.navbar a {
+	color: #000;
 }
 
 .navbar a:hover {
-	background: black;
-	color: white;
-}
-
-.container {
-	width: 70%;
-	margin: 50px auto;
-	padding: 50px 0;
+	font-size: 18px;
 }
 
 #about {
 	position: absolute;
-	top: 40%;
+	top: 80%;
 	left: 30%;
 	transform: translate(-50%, -50%);
+	padding-bottom: 150px;
+}
+
+#about h1{
+	font-size: 50px;
+	/*font-family: 'Cookie', cursive;*/
+	font-family: 'Advent Pro', sans-serif;
+}
+
+#about h3 {
+	font-family: 'Advent Pro', sans-serif;
 }
 
 /*PROJECTS*/
-
-.topic {
-	margin: 10 0px;
-}
 
 .images-container {
 	width: 90%;
 	/*margin: 50px auto;*/
 	margin: 10px auto;
+	font-family: 'Advent Pro', sans-serif;
 }
 
 .images-container > .row > div {
-	padding: 3px;
+	padding: 20px;
 	/*margin: 10px;*/
 }
 
@@ -65,21 +73,20 @@ nav {
 	width: 100%;
 }
 
-.describe { /*jQuery function*/
+.details { /*jQuery function*/
 	visibility: hidden;
 	color: white;
 	padding: 15px;
 	padding-top: 20%;
 } 
 
-.describe .title {
-	font-size: 30px;
-	font-family: 'Karla', sans-serif;
-	text-transform: capitalize;
+.details .title {
+	font-size: 25px;
+	text-transform: uppercase;
 }
 
-.describe .yup {
-	font-size: 20px;
+.details .features {
+	font-size: 18px;
 }
 
 a:hover {
@@ -87,63 +94,172 @@ a:hover {
 	text-align: center;
 }
 
-#write {
-	background: url("typewriter.jpg") center/cover no-repeat;
+#arti {
+	background: url("projects/coffeecode.jpg") center/cover no-repeat;
 }
 
-#write:hover {
-	background: #4d1a00;
+#arti:hover {
+	background: 
+    	linear-gradient(
+      	rgba(0,0,0, 0.45),
+      	rgba(0,0,0, 0.45)
+     	),
+    	url("projects/coffeecode.jpg") center/cover no-repeat;
 }
 
-#surf {
+#surph {
 	background: url("projects/surph-index.png") center/cover no-repeat;
 }
 
-#surf:hover {
-	background: #3333ff;
+#surph:hover {
+	background: 
+    	linear-gradient(
+      	rgba(0,0,0, 0.45),
+      	rgba(0,0,0, 0.45)
+     	),
+    	url("projects/surph-index.png") center/cover no-repeat;
 }
 
-#explore {
+#sdl {
 	background: url("projects/sdl-index.png") center/cover no-repeat;
 }
 
-#explore:hover {
-	background: #333300;
+#sdl:hover {
+	background: 
+    	linear-gradient(
+      	rgba(0,0,0, 0.45),
+      	rgba(0,0,0, 0.45)
+     	),
+    	url("projects/sdl-index.png") center/cover no-repeat;
 }
 
-#watch {
+#todo {
 	background: url("projects/to-do.png") center/cover no-repeat;
 }
 
-#watch:hover {
-	background: #1a1a1a;
+#todo:hover {
+	background: 
+    	linear-gradient(
+      	rgba(0,0,0, 0.45),
+      	rgba(0,0,0, 0.45)
+     	),
+    	url("projects/to-do.png") center/cover no-repeat;
 }
 
-#code {
+#finalblog {
 	background: url("projects/final-blog.png") center/cover no-repeat;
 }
 
-#code:hover {
-	background: #e6e6e6;
+#finalblog:hover {
+	background: 
+    	linear-gradient(
+      	rgba(0,0,0, 0.45),
+      	rgba(0,0,0, 0.45)
+     	),
+    	url("projects/final-blog.png") center/cover no-repeat;
 }
 
-#misc {
-	background: url("notmybaby.jpg") center/cover no-repeat;
+#blog {
+	background: url("projects/beginner-blog.png") center/cover no-repeat;
 }
 
-#misc:hover {
-	background: #1aa3ff;
+#blog:hover {
+	background: 
+    	linear-gradient(
+      	rgba(0,0,0, 0.45),
+      	rgba(0,0,0, 0.45)
+     	),
+    	url("projects/beginner-blog.png") center/cover no-repeat;
+}
+
+#background {
+	height: 500px;
+	margin: 50px auto;
+}
+
+#background h1 {
+	font-family: 'Advent Pro', sans-serif;
+	margin: 75px;
+}
+
+#background .row {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.bg {
+	margin: 20px 0;
+}
+
+.bg p {
+	padding: 0 60px;
+	text-align: justify;
+}
+
+.bg img {
+	margin: 0 0 10px;
+}
+
+.ust {
+	margin: 0;
+}
+
+.logo-tuitt, .logo-anc {
+	height: 50px;
+	width: 120px;
+}
+
+.logo-fcc {
+	height: 50px;
+	width: 50px;
+}
+
+.logo-ust {
+	height: 75px;
+	width: 75px;
+}
+
+a .logo-tuitt:hover, a .logo-anc:hover, a .logo-fcc:hover, a .logo-ust:hover {
+	opacity: 0.5;
 }
 
 #contact {
-	height: 400px;
+	height: 500px;
+	/*font-family: 'Advent Pro', sans-serif;*/
+}
+
+#contact h1 {
+	font-family: 'Advent Pro', sans-serif;
+}
+
+#contact .row {
+	margin: 200px 75px;
+}
+
+.contact-details {
+	font-size: 24px;
+	padding: 5px;
+}
+
+.links {
+	padding: 10px 150px;
+}
+
+.links a {
+	margin: 10px;
+	color: #000;
+}
+
+.links a:hover {
+	color: grey;
 }
 
 footer {
-	background: url("code.jpg") left/cover no-repeat;
 	height: 100px;
 }
 
 .footer-text {
 	padding: 40px;
+	font-size: 24px;
+	font-family: 'Cookie', cursive;
 }
