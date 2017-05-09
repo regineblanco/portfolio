@@ -13,8 +13,7 @@ body {
 header {
 	margin-bottom: 50px;
 	/*background: url("projects/coffeecode.jpg") center/cover no-repeat;*/
-	height: 500px;
-	position: relative;
+	height: 300px;
 }
 
 /*NAVIGATION*/
@@ -39,11 +38,9 @@ nav {
 }
 
 #about {
-	position: absolute;
-	top: 80%;
-	left: 30%;
-	transform: translate(-50%, -50%);
-	padding-bottom: 150px;
+	width: 80%;
+	margin: 200px auto 100px;
+	/*padding-bottom: 150px;*/
 }
 
 #about h1{
@@ -54,6 +51,22 @@ nav {
 
 #about h3 {
 	font-family: 'Advent Pro', sans-serif;
+}
+
+#resume {
+	text-align: right;
+	font-family: 'Cookie', cursive;
+	font-size: 30px;
+	padding: 100px 50px 0 0;
+}
+
+#resume a {
+	color: #C17C74;
+	text-decoration: none;
+}
+
+#resume a:hover {
+	text-decoration: underline;
 }
 
 /*PROJECTS*/
@@ -286,17 +299,21 @@ footer {
 
 	header {
 		margin-bottom: 20px;
+		height: 500px;
 
 	}
 
 	#about {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
 		padding: 100px 0 20px;
 		width: 100%;
 		text-align: center;
+		margin: 0 auto;
+	}
+
+	#resume {
+		text-align: center;
+		font-size: 30px;
+		padding: 10px 10px 50px;
 	}
 
 	.images-container {	
@@ -340,7 +357,8 @@ footer {
 	}
 
 	#about {
-		padding-left: 75px;
+		padding-left: 50px;
+		margin: 100px auto 100px;
 	}
 
 	.images-container {
