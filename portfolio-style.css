@@ -10,7 +10,6 @@ body {
 }*/
 
 /*HEADER*/
-
 header {
 	margin-bottom: 50px;
 	/*background: url("projects/coffeecode.jpg") center/cover no-repeat;*/
@@ -58,7 +57,6 @@ nav {
 }
 
 /*PROJECTS*/
-
 .images-container {
 	width: 80%;
 	/*margin: 50px auto;*/
@@ -176,7 +174,6 @@ a:hover {
 }
 
 /*BAKCGROUND AND EDUCATION*/
-
 #background {
 	height: 500px;
 	margin: 50px auto;
@@ -191,7 +188,6 @@ a:hover {
 #background .row {
 	text-align: center;
 	margin: 0 auto;
-	/*width: 90%;*/
 }
 
 .bg {
@@ -256,11 +252,11 @@ a .logo-tuitt:hover, a .logo-anc:hover, a .logo-fcc:hover, a .logo-ust:hover {
 
 .links a {
 	margin: 10px;
-	color: #000;
+	color: #2A3D45;
 }
 
 .links a:hover {
-	color: grey;
+	color: #C17C74;
 }
 
 .container-fluid {
@@ -268,6 +264,7 @@ a .logo-tuitt:hover, a .logo-anc:hover, a .logo-fcc:hover, a .logo-ust:hover {
 	margin: 0;
 }
 
+/*FOOTER*/
 footer {
 	height: 100px;
 	background: #C17C74;
