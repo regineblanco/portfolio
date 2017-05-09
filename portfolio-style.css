@@ -9,8 +9,10 @@ body {
 	color: #7A6C5D;
 }*/
 
+/*HEADER*/
+
 header {
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 	/*background: url("projects/coffeecode.jpg") center/cover no-repeat;*/
 	height: 500px;
 	position: relative;
@@ -58,14 +60,14 @@ nav {
 /*PROJECTS*/
 
 .images-container {
-	width: 90%;
+	width: 80%;
 	/*margin: 50px auto;*/
 	margin: 10px auto;
 	font-family: 'Advent Pro', sans-serif;
 }
 
 .images-container > .row > div {
-	padding: 20px;
+	padding: 10px;
 	/*margin: 10px;*/
 }
 
@@ -173,19 +175,23 @@ a:hover {
     	url("projects/beginner-blog.png") center/cover no-repeat;
 }
 
+/*BAKCGROUND AND EDUCATION*/
+
 #background {
 	height: 500px;
 	margin: 50px auto;
+	width: 92%;
 }
 
 #background h1 {
 	font-family: 'Advent Pro', sans-serif;
-	margin: 75px;
+	margin: 50px;
 }
 
 #background .row {
 	text-align: center;
 	margin: 0 auto;
+	/*width: 90%;*/
 }
 
 .bg {
@@ -193,7 +199,7 @@ a:hover {
 }
 
 .bg p {
-	padding: 0 60px;
+	padding: 0 40px;
 	text-align: justify;
 }
 
@@ -224,6 +230,7 @@ a .logo-tuitt:hover, a .logo-anc:hover, a .logo-fcc:hover, a .logo-ust:hover {
 	opacity: 0.5;
 }
 
+/*CONTACT*/
 #contact {
 	height: 500px;
 	/*font-family: 'Advent Pro', sans-serif;*/
@@ -235,7 +242,7 @@ a .logo-tuitt:hover, a .logo-anc:hover, a .logo-fcc:hover, a .logo-ust:hover {
 }
 
 #contact .row {
-	margin: 200px 75px;
+	margin: 200px 115px;
 }
 
 .contact-details {
@@ -244,7 +251,7 @@ a .logo-tuitt:hover, a .logo-anc:hover, a .logo-fcc:hover, a .logo-ust:hover {
 }
 
 .links {
-	padding: 10px 150px;
+	padding: 10px 10px 0 170px;
 }
 
 .links a {
@@ -304,7 +311,7 @@ footer {
 	}
 
 	#background h1 {
-		margin: 30px;
+		margin: 50px;
 	}
 
 	.bg p {
@@ -313,7 +320,7 @@ footer {
 
 	#contact {
 		height: 300px;
-		margin: 10px 0;
+		margin: 50px 0;
 		text-align: center;
 	}
 
@@ -330,9 +337,30 @@ footer {
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
 
+	.container {
+
+	padding: 0;
+	}
 
 	#about {
 		padding-left: 75px;
+	}
+
+	.images-container {
+		width: 100%;
+	}
+
+	#background {
+		width: 100%;
+		padding: 0;
+	}
+
+	.tuitt, .anc {
+		padding-left: 0;
+	}
+
+	.freecodecamp, .ust {
+		padding-right: 0;
 	}
 
 	#background h1 {
@@ -345,8 +373,9 @@ footer {
 
 	#contact {
 		height: 300px;
-		margin: 10px 0;
-		padding-left: 75px;
+		margin: 50px auto;
+		/*padding-left: 150px;*/
+		width: 75%;
 	}
 
 	#contact .row {
@@ -371,6 +400,8 @@ footer {
 
 	#contact {
 		height: 300px;
+		width: 90%;
+		padding-left: 25px;
 	}
 
 	#contact .row {
@@ -378,7 +409,7 @@ footer {
 	}
 
 	.links {
-		padding: 10px 10%;
+		padding: 10px 10px 0 100px;
 	}
 
 }
