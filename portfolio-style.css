@@ -11,7 +11,7 @@ body {
 
 /*HEADER*/
 header {
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 	/*background: url("projects/coffeecode.jpg") center/cover no-repeat;*/
 	height: 300px;
 }
@@ -47,6 +47,7 @@ nav {
 	font-size: 50px;
 	/*font-family: 'Cookie', cursive;*/
 	font-family: 'Advent Pro', sans-serif;
+	margin-bottom: 20px;
 }
 
 #about h3 {
@@ -55,7 +56,8 @@ nav {
 
 #resume {
 	text-align: right;
-	font-family: 'Cookie', cursive;
+	/*font-family: 'Cookie', cursive;*/
+	font-family: 'Advent Pro', sans-serif;
 	font-size: 30px;
 	padding: 100px 50px 0 0;
 }
@@ -63,10 +65,6 @@ nav {
 #resume a {
 	color: #C17C74;
 	text-decoration: none;
-}
-
-#resume a:hover {
-	text-decoration: underline;
 }
 
 /*PROJECTS*/
